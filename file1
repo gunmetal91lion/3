@@ -1,0 +1,7 @@
+function isNumeric(str) {
+  return !isNaN(str);
+}
+
+let str = "123.45";
+console.log(isNumeric(str));
+
